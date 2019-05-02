@@ -1,7 +1,12 @@
 body{
     background-color: lightgrey;
 }
-
+#myName{
+	height: 50px;
+}
+#dropdowns{
+	height: 50px;
+}
 ul.dropdownPlots{
     list-style-type: none;
 }
@@ -11,4 +16,5 @@ a{
 }
 #aboutme{
     font-size: 25px;
+    background-color: ;
 }
