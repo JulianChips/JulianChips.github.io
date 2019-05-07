@@ -18,3 +18,15 @@ a{
     font-size: 25px;
     background-color: ;
 }
+#MyPic{
+	background-image: url("ExclaimBorder.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 95%;
+}
+#drawing{
+	background-image: url("CartoonJulian.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 30%;
+}

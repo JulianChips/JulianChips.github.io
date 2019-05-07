@@ -10,8 +10,8 @@
 	<!-- https://coolors.co/090c08-474056-dadad9-757083-8a95a5 -->
 	<!-- Container for Bootstrap -->
 	<div class="container-fluid">
-		<!-- Small Bar with Name -->
-    <div class="row bg-secondary">
+<!-- Small Bar with Name -->
+    <div class="row bg-secondary sticky-top">
       <div class="col-5"> WIP Site </div>
       <div class="col-2 text-center text-light">
         <a href="index.html" id="topButton" class="btn btn-secondary font-weight-bold p-1 m-0" role="button"><img src="Name.png" alt="Julian Yanez" class="w-100" id="myName"></a>
@@ -39,27 +39,47 @@
         </div>
       </div>
     </div>
-  <!-- End of Small Bar -->
-
+<!-- End of Small Bar -->
+<!-- About Me -->
 <div class="row mt-4">
-  <div class="col-4">
-		<img class="w-100 py-2" src="ProfilePicture.jpg" alt="Profile Picture"><br>
-		<p class="font-weight-light justify-content-start">Data Analytics and Visualization Student</p>
+  <div class="col-4" id="MyPic">
+		<img class="w-100 p-4 rounded-pill" src="ProfilePicture.jpg" alt="Profile Picture"><br>
 	</div>
 	<div class="col-7">
 		<p class="font-weight-bold text-primary justify-content-start pl-1 py-2" id="aboutme">
 			About Me:
 		</p>
 		<p class="font-weight-light px-1">
-			My name is Francisco Julian Yáñez. I am a student of Data Analytics and Visualization Boot Camp at UT Austin. I am a science enthusiast and Mathematics graduate from the University of Texas at Austin with a passion for the arts.
+			My name is Francisco Julian Yáñez. I am a student of Data Analytics and Visualization Boot Camp at UT Austin. I am a science enthusiast and Mathematics degree-holder from the University of Texas at Austin with a passion for the arts.
 		</p>
 		<p class="font-weight-light px-1">
 			Some things I enjoy are coding, music and vinyl collecting, and sharpening my drawing skills.
 		</p>
 	</div>
 </div>
+<!-- End of About Me -->
+<!-- Skills Section -->
+<div class="row my-2">
+	<div class="col-7"></div>
+	<div class="col-5 py-3" id="drawing">
+		<div class="card text-white bg-secondary" style="width: 20rem;">
+  			<div class="card-header">
+    			Skills
+  			</div>
+  			<div class="card-body">
+  				<ul class="list-group list-group-flush bg-secondary">
+	    			<li class="list-group-item bg-secondary">Python Programming</li>
+	    			<li class="list-group-item bg-secondary">Web Development</li>
+	    			<li class="list-group-item bg-secondary">SQL and Mongo Databases</li>
+	  			</ul>
+  			</div>
+  		</div>
+		<!-- <img class="w-50 float-right" src="CartoonJulian.png" alt="CartoonJulian"> -->
+	</div>
+</div>
+<!-- End of Skills Section -->
 <!-- Bottom Bar -->
-<div class="row fixed-bottom bg-secondary pt-1">
+<div class="row bg-secondary pt-1">
   <div class="col-12 bg-primary pt-3 pb-3 text-center text-light font-weight-light">
     Francisco Julian Yáñez
   </div>
