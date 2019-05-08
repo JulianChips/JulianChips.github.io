@@ -21,12 +21,12 @@ a{
 #MyPic{
 	background-image: url("ExclaimBorder.png");
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: top;
 	background-size: 95%;
 }
-#drawing{
+/*#drawing{
 	background-image: url("CartoonJulian.png");
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: 30%;
-}
+}*/

@@ -12,9 +12,11 @@
 	<div class="container-fluid">
 <!-- Small Bar with Name -->
     <div class="row bg-secondary sticky-top">
-      <div class="col-5"> WIP Site </div>
+      <div class="col-5">
+		<a href="index.html" id="topButton" class="btn btn-secondary font-weight-bold p-1 m-0 float-left d-block d-md-none" role="button"><img src="Name.png" alt="Julian Yanez" class="w-auto" id="myName"></a>
+      </div>
       <div class="col-2 text-center text-light">
-        <a href="index.html" id="topButton" class="btn btn-secondary font-weight-bold p-1 m-0" role="button"><img src="Name.png" alt="Julian Yanez" class="w-100" id="myName"></a>
+        <a href="index.html" id="topButton" class="btn btn-secondary font-weight-bold p-1 m-0 d-none d-md-block" role="button"><img src="Name.png" alt="Julian Yanez" class="w-auto" id="myName"></a>
       </div>
       <div class="col-5" id="dropdowns">
         <div class="dropdown p-1 float-right align-middle">
@@ -42,8 +44,8 @@
 <!-- End of Small Bar -->
 <!-- About Me -->
 <div class="row mt-4">
-  <div class="col-4" id="MyPic">
-		<img class="w-100 p-4 rounded-pill" src="ProfilePicture.jpg" alt="Profile Picture"><br>
+  <div class="col-4 text-center" id="MyPic">
+		<img id="profile" class="w-100 p-4 rounded-pill" src="ProfilePicture.jpg" alt="Profile Picture"><br>
 	</div>
 	<div class="col-7">
 		<p class="font-weight-bold text-primary justify-content-start pl-1 py-2" id="aboutme">
@@ -59,10 +61,12 @@
 </div>
 <!-- End of About Me -->
 <!-- Skills Section -->
-<div class="row my-2">
-	<div class="col-7"></div>
-	<div class="col-5 py-3" id="drawing">
-		<div class="card text-white bg-secondary" style="width: 20rem;">
+<div class="row mt-2 mb-4">
+	<div class="col-5">
+		<img class="w-75 float-right align-middle d-block d-md-none" src="CartoonJulian.png" alt="CartoonJulian">
+	</div>
+	<div class="col-5 pt-3" id="drawing">
+		<div class="card text-white bg-secondary">
   			<div class="card-header">
     			Skills
   			</div>
@@ -76,11 +80,14 @@
   		</div>
 		<!-- <img class="w-50 float-right" src="CartoonJulian.png" alt="CartoonJulian"> -->
 	</div>
+	<div class="col-2 py-2">
+		<img class="w-100 d-none d-md-block" src="CartoonJulian.png" alt="CartoonJulian">
+	</div>
 </div>
 <!-- End of Skills Section -->
 <!-- Bottom Bar -->
-<div class="row bg-secondary pt-1">
-  <div class="col-12 bg-primary pt-3 pb-3 text-center text-light font-weight-light">
+<div class="row fixed-bottom bg-secondary pt-1">
+  <div class="col-12 bg-primary py-3 text-center text-light font-weight-light">
     Francisco Julian Yáñez
   </div>
 </div>
