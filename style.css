@@ -70,4 +70,16 @@ ul.dropdownPlots{
 .secondHalf{
 	background-color: #4b4e6dE2;
 }
-
+/*.carousel{
+	height:50%;
+}*/
+/*.carousel-item{
+	background-color: #4b4e6dE2;
+}*/
+.carousel-image{
+	max-width: 100%;
+	max-height: 50%;
+}
+.drawing{
+	max-width: 60%;
+}
