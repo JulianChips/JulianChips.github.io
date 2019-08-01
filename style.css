@@ -1,32 +1,73 @@
-body{
-    background-color: lightgrey;
+.background-image{
+	position:fixed;
+	left:0;
+	right:0;
+    background-image: url(chicago.jpg);
+    display: block;
+    -webkit-filter: blur(5px);
+  	-moz-filter: blur(5px);
+  	-o-filter: blur(5px);
+  	-ms-filter: blur(5px);
+  	filter: blur(5px);
+    height: 100%;
+    background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	z-index: 1;
 }
+
+.container-fluid{
+	position:absolute;
+	left:0;
+	right:0;
+  	background-color: rgb(0,0,0,0);
+  	z-index: 9999;
+}
+
 #myName{
-	height: 50px;
+	height: 30px;
 }
 #dropdowns{
-	height: 50px;
+	position: absolute;
+	right: 15px;
+  	top: 50%;
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
 }
 ul.dropdownPlots{
     list-style-type: none;
 }
-a{
+/*a{
     text-decoration: none;
-    color: grey;
+}*/
+.aboutme{
+    /*background-color: rgba(188, 237, 246, 0.3);*/
+    background-color: #4b4e6d60;
 }
-#aboutme{
-    font-size: 25px;
-    background-color: ;
-}
-#MyPic{
+/*#MyPic{
 	background-image: url("ExclaimBorder.png");
 	background-repeat: no-repeat;
 	background-position: top;
 	background-size: 95%;
-}
-/*#drawing{
-	background-image: url("CartoonJulian.png");
-	background-repeat: no-repeat;
-	background-position: right;
-	background-size: 30%;
 }*/
+
+.myBar{
+	background-color: #e6ebe0;
+	height: 40px;
+}
+.dropdown-menu{
+	background-color: #4b4e6d;
+}
+.dropdown{
+	right:10px;
+}
+.bottomBackground{
+	background-color: #e6ebe0;
+}
+/*.bottomBar{
+	background-color: ;
+}*/
+.secondHalf{
+	background-color: #4b4e6dE2;
+}
+

@@ -7,20 +7,21 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<!-- https://coolors.co/090c08-474056-dadad9-757083-8a95a5 -->
+	<div class='background-image'></div>
+	<!-- https://coolors.co/222222-ffffff-4b4e6d-84dcc6-95a3b3 -->
 	<!-- Container for Bootstrap -->
 	<div class="container-fluid">
 <!-- Small Bar with Name -->
-    <div class="row bg-secondary sticky-top">
+    <div class="row sticky-top myBar">
       <div class="col-5">
-		<a href="index.html" id="topButton" class="btn btn-secondary font-weight-bold p-1 m-0 float-left d-block d-md-none" role="button"><img src="Name.png" alt="Julian Yanez" class="w-auto" id="myName"></a>
+		<a href="index.html" id="topButton" class="btn p-1 float-left d-block" role="button"><img src="Name.png" alt="Julian Yanez" class="w-auto" id="myName"></a> SITE IN DEVELOPEMENT
       </div>
-      <div class="col-2 text-center text-light">
-        <a href="index.html" id="topButton" class="btn btn-secondary font-weight-bold p-1 m-0 d-none d-md-block" role="button"><img src="Name.png" alt="Julian Yanez" class="w-auto" id="myName"></a>
+      <div class="col-2">
+        <!-- <a href="index.html" id="topButton" class="btn p-1 m-0 float-left d-none d-md-block" role="button"><img src="Name.png" alt="Julian Yanez" class="w-auto" id="myName"></a> -->
       </div>
       <div class="col-5" id="dropdowns">
-        <div class="dropdown p-1 float-right align-middle">
-          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <div class="dropdown float-right">
+          <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
            Projects
           </a>
 
@@ -29,8 +30,8 @@
             <a class="dropdown-item" href="https://julianchips.github.io/PreviousUTeachWorks/" target="_blank">UTeach Final</a>
           </div>
         </div>
-        <div class="dropdown p-1 float-right align-middle">
-          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <div class="dropdown float-right align-middle">
+          <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
            Links
           </a>
 
@@ -43,51 +44,39 @@
     </div>
 <!-- End of Small Bar -->
 <!-- About Me -->
-<div class="row mt-4">
-  <div class="col-4 text-center" id="MyPic">
-		<img id="profile" class="w-100 p-4 rounded-pill" src="ProfilePicture.jpg" alt="Profile Picture"><br>
+<div class="row my-5">
+  	<div class="col-5 ml-5 float-left" id="MyPic">
+		<img id="profile" class="w-100 p-3 rounded-circle" src="profilepicture.jpeg" alt="Profile Picture"><br>
 	</div>
-	<div class="col-7">
-		<p class="font-weight-bold text-primary justify-content-start pl-1 py-2" id="aboutme">
+	<div class="col-1"></div>
+	<div class="col-5 text-light aboutme">
+		<h2 class="font-weight-bold justify-content-start pl-1 py-2">
 			About Me:
+		</h2>
+		<p class="font-weight-light px-1">
+			My name is Julian Yanez and I am a recent graduate of a data analytics and visualization boot camp at the University of Texas at Austin currently seeking a job as a data analyst. I'm a mathematics graduate as well with deep passion for programming. I love making tools that solve problems along with anything else I can learn to do. 
 		</p>
 		<p class="font-weight-light px-1">
-			My name is Francisco Julian Yáñez. I am a student of Data Analytics and Visualization Boot Camp at UT Austin. I am a science enthusiast and Mathematics degree-holder from the University of Texas at Austin with a passion for the arts.
-		</p>
-		<p class="font-weight-light px-1">
-			Some things I enjoy are coding, music and vinyl collecting, and sharpening my drawing skills.
+			In my spare time I love listening to music at loud volumes, collecting vinyl records whenever I can. I also like honing my drawing skills whenever I can. 
 		</p>
 	</div>
+	<div class="col-1"></div>
 </div>
 <!-- End of About Me -->
 <!-- Skills Section -->
-<div class="row mt-2 mb-4">
-	<div class="col-5">
-		<img class="w-75 float-right align-middle d-block d-md-none" src="CartoonJulian.png" alt="CartoonJulian">
-	</div>
-	<div class="col-5 pt-3" id="drawing">
-		<div class="card text-white bg-secondary">
-  			<div class="card-header">
-    			Skills
-  			</div>
-  			<div class="card-body">
-  				<ul class="list-group list-group-flush bg-secondary">
-	    			<li class="list-group-item bg-secondary">Python Programming</li>
-	    			<li class="list-group-item bg-secondary">Web Development</li>
-	    			<li class="list-group-item bg-secondary">SQL and Mongo Databases</li>
-	  			</ul>
-  			</div>
-  		</div>
-		<!-- <img class="w-50 float-right" src="CartoonJulian.png" alt="CartoonJulian"> -->
+<div class="row mt-2 mb-4 secondHalf">
+	<div class="col-10">
+		<h2 class="text-light py-2">What I Can Do For You:</h2><br>
+		<h5 class="text-light py-2"> Testing one two three</h5>
 	</div>
 	<div class="col-2 py-2">
-		<img class="w-100 d-none d-md-block" src="CartoonJulian.png" alt="CartoonJulian">
+		<img class="w-100" src="CartoonJulian.png" alt="CartoonJulian">
 	</div>
 </div>
 <!-- End of Skills Section -->
 <!-- Bottom Bar -->
-<div class="row fixed-bottom bg-secondary pt-1">
-  <div class="col-12 bg-primary py-3 text-center text-light font-weight-light">
+<div class="row bottomBackground">
+  <div class="col-12 text-center font-weight-light bottomBar">
     Francisco Julian Yáñez
   </div>
 </div>
